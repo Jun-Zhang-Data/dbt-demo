@@ -1,0 +1,13 @@
+dbt_demo:
+  outputs:
+    dev:
+      account: lcbbjln-cz79563
+      database: DBT_DEMO
+      password: yutianI%1
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 10
+      type: snowflake
+      user: carrie
+      warehouse: COMPUTE_WH
+  target: dev
